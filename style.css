@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #fdf6e3;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  overflow-x: hidden; 
+
+h1 {
+  margin-top: 20px;
+  color: #d53a3a;
+}
+h3{
+    margin-top: 20px;
+    color: #d53a3a;
+}
+
+.cake-container {
+  position: relative;
+  display: inline-block;
+  margin-top: 30px;
+}
+
+.cake-image {
+  width: 300px; 
+  height: auto;
+}
+
+/* Общий стиль для появляющихся свечей (GIF) */
+.candle {
+  position: absolute;
+  width: 50px;    
+  height: auto;
+  transform: translate(-50%, -80%);
+
+  pointer-events: none; 
+  z-index: 999;         
+}
